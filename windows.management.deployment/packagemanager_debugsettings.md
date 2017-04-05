@@ -3,9 +3,9 @@
 -api-type: winrt property
 ---
 
-<!-- Property syntax.
+<!-- Property syntax.-->
 public PackageManagerDebugSettings DebugSettings { get; }
--->
+
 
 # Windows.Management.Deployment.PackageManager.DebugSettings
 
