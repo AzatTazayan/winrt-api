@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deployment.DeploymentResult, Windows.Management.Deployment.DeploymentProgress> AddPackageAsync(Windows.Foundation.Uri packageUri, Windows.Foundation.Collections.IIterable<Windows.Foundation.Uri> dependencyPackageUris, Windows.Management.Deployment.DeploymentOptions deploymentOptions)
+public IAsyncOperationWithProgress<DeploymentResult, DeploymentProgress> AddPackageAsync(Uri packageUri, IIterable<Uri> dependencyPackageUris, DeploymentOptions deploymentOptions)
 -->
 
 # Windows.Management.Deployment.PackageManager.AddPackageAsync
